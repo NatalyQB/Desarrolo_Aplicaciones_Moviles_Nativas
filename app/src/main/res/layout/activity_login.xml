@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inicio de sesión"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Campo de Texto para el Usuario -->
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textSize="18dp"
+        android:textColorHint="@color/gris_claro"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo de Texto para la Contraseña -->
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="18dp"
+        android:textColorHint="@color/gris_claro"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!-- Botón para Iniciar Sesión -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/login"
+        />
+
+    <!-- Botón para volver al inicio -->
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/purple_500"
+        android:text="Iniciar Sesión"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:text="Volver"
+        android:textSize="12dp"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Crear cuenta-->
+    <TextView
+        android:id="@+id/tvCrearCuenta"
+        android:layout_width="363dp"
+        android:layout_height="49dp"
+        android:text="¿Aún no tienes una cuenta? \n Créala aquí"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

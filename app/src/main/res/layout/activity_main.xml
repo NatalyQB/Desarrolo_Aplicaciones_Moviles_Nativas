@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título de la tienda -->
+    <TextView
+        android:id="@+id/textViewNombreTienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tennis Online"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"/>
+
+    <!-- Botón de Login -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="111dp"
+        android:drawableLeft="@drawable/baseline_login_24"
+        android:padding="10dp"
+        android:text="Login" />
+
+    <!-- Botón de Listado de Productos -->
+    <Button
+        android:id="@+id/btnListadoProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/baseline_lightbulb"
+        android:text="Listado de Productos" />
+
+    <!-- Botón de Registro de Clientes -->
+    <Button
+        android:id="@+id/btnRegistroClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnListadoProductos"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/baseline_person_add_24"
+        android:text="Registro de Clientes" />
+
+    <!-- Botón con ícono de Carrito de Compras -->
+    <Button
+        android:id="@+id/btnCarritoCompras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegistroClientes"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/baseline_shopping_cart_24"
+        android:text="Carrito de Compras" />
+
+    <!-- Botón para Geolocalización -->
+    <Button
+        android:id="@+id/btnGeolocalizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCarritoCompras"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="16dp"
+        android:text="Geolocalización" />
+
+    <!-- Texto de bienvenida en la parte inferior -->
+    <TextView
+        android:id="@+id/textoBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a nuestro paraíso! \n Aquí cada paso es una aventura. \nEncuentra el par 👟👠 perfecto.\n ¡Explora, disfruta y Compra 😊✨!"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
